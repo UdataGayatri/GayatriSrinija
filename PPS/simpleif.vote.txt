@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int Person_age;
+	printf("ENTER PERSON_AGE:\n");
+	scanf("%d",&Person_age);
+	if(Person_age >= 18)
+	{
+		printf("ELIGIBLE TO VOTE IN INDIA");
+	}
+	if(Person_age < 18)
+	{
+		printf("NOT ELIGIBLE TO VOTE IN INDIA");
+	}
+	return 0;
+}
