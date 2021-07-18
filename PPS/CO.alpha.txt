@@ -1,0 +1,11 @@
+/**Program to check whether the entered character is alphabet or not using conditional operator**/
+#include<stdio.h>
+int main()
+{
+	char ch,alpha;
+	printf("enter any character:\n");
+	scanf("%c",&ch);
+	alpha = (ch>=65&&ch<=90||ch>=97&&ch<=122)?printf("The Entered Character Is An Alphabet"):printf("Not An Alphabet");
+	
+	return 0;
+}

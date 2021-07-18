@@ -1,0 +1,19 @@
+/**Program to read Name and Gender of a person and print Mr. or Mrs before the name**/
+#include<stdio.h>
+int main()
+{
+	char name;
+	char gender;
+	printf("enter name:\n");
+	scanf("%s",&name);
+	printf("enter gender:\n");
+	scanf("%c\n",&gender);
+	if(gender == 'F'|| gender == 'f')
+	{
+	    printf("Miss.%s",name);	
+	}
+	else if(gender == 'M'|| gender == 'm')
+    {
+	    printf("Mr.%s",name);	
+	}
+}

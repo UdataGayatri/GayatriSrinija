@@ -1,0 +1,11 @@
+/**Program to find maximum of four numbers using conditional operator**/
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e;
+	printf("enter four numbers:\n");
+	scanf("%d%d%d%d",&a,&b,&c,&d);
+	e = (a>b&&a>c&&a>d)?a:(b>c&&b>d)?b:(c>d)?c:d;
+	printf("the max of four num's is %d",e);
+	return 0;
+}

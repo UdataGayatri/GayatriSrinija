@@ -1,0 +1,22 @@
+/**Check whether the given character is alphabet ,digit or any other symbol.**/
+#include<stdio.h>
+int main()
+{
+	char ch;
+	printf("enter any character:\n");
+	scanf("%c",&ch);
+	if(ch>=65&&ch<=90||ch>=97&ch<=122)
+	{
+		printf("THE GIVEN CHARACTER IS AN ALPHABET");
+	}
+    else if(ch>=48&&ch<=57)
+	{
+		printf("THE CHARACTER IS DIGIT");
+	}
+	else
+	{
+		printf("THE GIVEN CHARACTER IS SPECIAL CHARACTER");
+	}
+	return 0;
+	
+}

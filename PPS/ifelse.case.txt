@@ -1,0 +1,21 @@
+/**Check whether the given character is uppercase or lowercase alphabet**/
+#include<stdio.h>
+int main()
+{
+	char num;
+	printf("enter number:\n");
+	scanf("%c",&num);
+	if(num>=65&&num<=90)
+	{
+		printf("THE ALPHABET IS UPPER CASE");
+	}
+	else if(num>=97&num<=122)
+	{
+		printf("THE ALPHABET IS LOWER CASE");
+	}
+	else
+	{
+		printf("NOT IN RANGE");
+	}
+	return 0;
+}
