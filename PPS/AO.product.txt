@@ -1,0 +1,13 @@
+/**Program to multiply 10,5 without using * operator**/
+#include<stdio.h>
+int main()
+{
+	int a= 10,b = 5,product;
+	product = 10+10+10+10+10;
+	printf("%d",product);
+	
+	
+	return 0;
+	
+}  
+

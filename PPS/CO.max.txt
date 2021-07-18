@@ -1,0 +1,11 @@
+/**Program to find maximum of two numbers using conditional operator**/
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("enter two numbers:\n");
+	scanf("%d%d",&a,&b);
+	c = (a>b)?a:b;
+	printf("the maximum number is %d",c);
+	return 0;
+}

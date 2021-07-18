@@ -1,0 +1,11 @@
+/**Program to convert feets to inches**/
+#include<stdio.h>
+int main()
+{
+	float num,inches;
+	printf("enter feets:\n");
+	scanf("%f",&num);
+	inches = num*12.0;
+	printf("the required num of inches is %.1f",inches);
+	return 0;
+}

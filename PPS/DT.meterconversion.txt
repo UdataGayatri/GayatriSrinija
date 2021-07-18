@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	float res1;
+	double res2;
+	printf("enter n:\n");
+	scanf("%d",&n);
+	res1 = n / 100.0;
+	res2 = n / 100000.0;
+	printf("%dcentimeters=%.2f meters\n",n,res1);
+	printf("%dcentimeters = %.2f kilometers",n,res2);
+	return 0;
+}

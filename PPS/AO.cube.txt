@@ -1,0 +1,14 @@
+/**Program to find cube of a number without using built-in function
+and with using built-in function**/
+#include<stdio.h>
+int main()
+{
+	int num,cube;
+	printf("enter number:\n");
+	scanf("%d",&num);
+	cube = num*num*num;
+	printf("the cube of number is %d",cube);
+	return 0;
+}
+
+

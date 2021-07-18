@@ -1,0 +1,14 @@
+/**Program to find maximum of three numbers using conditional operator**/
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d;
+	printf("enter three numbers:\n");
+	scanf("%d%d%d",&a,&b,&c);
+	d = (a>b)?a:b;
+	d = (a>c)?a:c;
+	d = (b>c)?b:c;
+	
+	printf("the maximum of 3 num's is %d",d);
+	return 0;
+}

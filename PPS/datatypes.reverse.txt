@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+	char a='P',b ='P',c = 'S';
+	printf("the reverse order of characters is : %c,%c,%c",c,b,a);
+}

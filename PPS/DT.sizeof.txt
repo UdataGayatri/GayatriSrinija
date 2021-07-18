@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	float b;
+	double d;
+	char ch;
+	long double l;
+	short int s;
+	signed int i;
+	long int e;
+	printf("size of int %d bytes\n",sizeof(a));
+	printf("size of float %d bytes\n",sizeof(b));
+	printf("size of double %d bytes\n",sizeof(d));
+	printf("size of long double %d bytes\n",sizeof(l));
+	printf("size of char %d bytes\n",sizeof(ch));
+	printf("size of long int %d bytes\n",sizeof(e));
+	printf("size of short int %d bytes\n",sizeof(s));
+	printf("size of signed int %d bytes\n",sizeof(i));
+	return 0;
+}

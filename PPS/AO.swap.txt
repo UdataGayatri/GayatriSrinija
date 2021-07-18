@@ -1,0 +1,12 @@
+/**Program to swap two numbers without using temperory variable.**/
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter two numbers:\n");
+	scanf("%d%d",&a,&b);
+	printf("the value of a is %d\n",b);
+	printf("the value of b is %d\n",a);
+	
+	return 0;
+}

@@ -1,0 +1,13 @@
+/**Program to print the memory address of a variable in C**/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a;
+	float b;
+	printf("enter any num:\n");
+	scanf("%d%f",&a,&b);
+	printf("address of a is %u\n",&a);
+	printf("address of b is %u\n",&b);
+	return 0;
+}

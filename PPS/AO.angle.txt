@@ -1,0 +1,11 @@
+/**Program to input two angles from user and find third angle of the triangle**/
+#include<stdio.h>
+int main()
+{
+	int deg1,deg2,deg3;
+	printf("enter degrees:\n");
+	scanf("%d%d",&deg1,&deg2);
+	deg3 = 180-(deg1 + deg2);
+	printf("The third angle in triangle is %d",deg3);
+	return 0;
+}
