@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	char num;
+	printf("ENTER A NUMBER:\n");
+	scanf("%d",&num);
+	if(num>=65 && num<=90||num>=97 && num<= 122)
+	{
+		printf("IT IS ALPHABET");
+	}
+	return 0;
+}
