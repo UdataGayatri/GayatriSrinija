@@ -1,0 +1,12 @@
+/**Write a C program to find Simple Interest**/
+#include<stdio.h>
+int main()
+{
+	int P,R,T;
+	float SI;
+	printf("ENTER P,R,T:\n");
+	scanf("%d%d%d",&P,&R,&T);
+	SI = (P*R*T)/100;
+	printf("The Simple Interest = %.1f",SI);
+	return 0;
+}
