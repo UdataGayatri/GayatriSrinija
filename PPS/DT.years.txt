@@ -1,0 +1,14 @@
+/**Write a C program to convert specified days into years, weeks and days.Note: Ignore leap year.**/
+#include<stdio.h>
+int main()
+{
+	float weeks,years;
+	int days;
+	printf("enter number of Days:\n");
+	scanf("%d",&days);
+	weeks = days/7.0;
+	years = days/365.0;
+	printf("NUMBER OF WEEKS FOR GIVEN DAYS IS %.2f\n",weeks);
+    printf("NUMBER OF YEARS FOR GIVEN DAYS IS %.2f\n",years);	
+	return 0;
+}

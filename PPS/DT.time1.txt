@@ -1,0 +1,15 @@
+/**Write a C program to convert a given integer (in seconds) to hours, minutes and seconds.**/
+#include<stdio.h>
+int main()
+{
+	float hrs,min;
+	int sec;
+	printf("enter any integer(seconds):\n");
+	scanf("%d",&sec);
+	min = sec/60.0;
+	hrs = sec/3600.0;
+	printf("NUMBER OF HOURS FOR GIVEN SECONDS IS %.2f\n",hrs);
+	printf("NUMBER OF MINUTES FOR GIVE SECONDS IS %.2f\n",min);
+	printf("NUMBER OF SECONDS IS %d\n",sec);
+	return 0;
+}
