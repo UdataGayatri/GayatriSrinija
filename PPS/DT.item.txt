@@ -1,0 +1,15 @@
+/**Write a C program that accepts an  item's weight  ,Cost and  number of units purchased  and 
+calculate the  the total weight and total cost  of purchase.**/
+#include<stdio.h>
+int main()
+{
+	int wt,cost,nunits;
+	int totalwt,totalcost;
+	printf("Enter wt,cost and number of units:\n");
+	scanf("%d%d%d",&wt,&cost,&nunits);
+	totalwt = nunits * wt;
+	totalcost = nunits * cost;
+	printf("The Total Cost of Items Purchased = %d rupees\n",totalcost);
+	printf("The Total Weight of Items Purchased = %d grams\n",totalwt);
+	return 0;
+}
