@@ -1,0 +1,34 @@
+/**Write a C program, which takes two integer operands and one operator from the user, performs the 
+operation and then prints the result.**/
+#include<stdio.h>
+int main()
+{
+	int a, b;
+	char opera;
+	printf("Enter two integer values: ");
+	scanf("%d%d",&a,&b);
+	fflush(stdin);
+	printf("Enter a operand + or - or * or / or %:\n ");
+	scanf("%c",&opera);
+	switch(opera)
+	{
+		case '+':
+			printf("Result is: %d",(a+b));
+			break;
+		case '-':
+			printf("Result is: %d",(a-b));
+			break;
+		case '*':
+			printf("Result is: %d",(a*b));
+			break;
+		case '/':
+			printf("Result is: %d",(a/b));
+			break;
+		case '%':
+			printf("Result is: %d",(a%b));
+			break;
+		default:
+			printf("Invalid operand");
+	}
+	return 0;
+}

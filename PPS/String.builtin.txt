@@ -1,0 +1,19 @@
+/**Program using string inbuilt functions(strlen ,strcat, strcmp, strncat, strnpy)**/
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char name[20] = "gayatri";
+	char studentname[20];
+	strcpy(studentname,"srinija");
+	if(strcmp(studentname,"srini")==0)
+	printf("you are not the same\n");
+	else
+	printf("hiii!\n");
+	int n;
+	n = strlen(name);
+	printf("lenght of text is: %d\n",n);
+	strcat(name,"srinija");
+	printf("Student name is :%s\n",name);
+	return 0;
+}

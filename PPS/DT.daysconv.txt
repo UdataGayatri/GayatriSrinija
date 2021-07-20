@@ -1,0 +1,16 @@
+/**Write a C program to convert a given integer (in days) to year,months and 
+days,  assumes that all months have 30 days and all years have 365 days.**/
+#include<stdio.h>
+int main()
+{
+	int years,month,days,dayss;
+	printf("enter days:\n");
+	scanf("%d",&days);
+	years = days/360;
+	month = (days-(360*years))/30;
+	dayss = (days -(360*years)-(30*month));
+	printf("years = %d\n",years);
+	printf("months = %d\n",month);
+	printf("days = %d\n",dayss);
+	return 0;
+}

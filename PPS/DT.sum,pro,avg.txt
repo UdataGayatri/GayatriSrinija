@@ -1,0 +1,19 @@
+/**Write a C program that accepts 3 integers from the user and calculate the sum  ,Product  averageof these  3 integers**/
+#include<stdio.h>
+int main()
+{
+	int a,b,c,sum,product;
+    float avg;
+	printf("Enter three numbers:\n");
+	scanf("%d%d%d",&a,&b,&c);
+	sum = a + b + c;
+	product = a * b * c;
+	avg = (a+b+c)/3;
+	printf("THE SUM OF 3 NUMBERS IS %d\n",sum);
+	printf("THE PRODUCT OF 3 NUMBERS IS %d\n",product);
+	printf("THE AVERAGE OF 3 NUMBERS IS %.1f\n",avg);
+	return 0; 
+	
+}
+
+

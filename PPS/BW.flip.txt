@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int num, flipnum;
+    printf("Enter any number: ");
+    scanf("%d", &num);
+    flipnum = ~num;
+    printf("Number after bits are flipped = %d", flipnum);
+
+    return 0;
+}
