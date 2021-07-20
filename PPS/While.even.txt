@@ -1,0 +1,14 @@
+/**Print even numbers from 200 to 300**/
+#include<stdio.h>
+int main()
+{
+	int count ;
+	printf("Even numbers between 200 to 300\n");
+	count = 200;
+	while(count>=200&&count<=300)
+	{
+		printf("%d\n",count);
+		count = count + 2;
+	}
+	return 0;
+}

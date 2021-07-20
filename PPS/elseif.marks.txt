@@ -1,0 +1,20 @@
+/** mark<40%= Failed , 40% to <60% =Second class, 60 % to70% = First class , >=70%= Distinction.
+Read percentage from standard input**/
+#include<stdio.h>
+int main()
+{
+	int marks;
+	printf("enter marks :\n");
+	scanf("%d",&marks);
+	if(marks<40)
+	printf("FAILED");
+	else if(marks>=40&&marks<60)
+	printf("SECOND CLASS");
+	else if(marks>=60&&marks<70)
+    printf("FIRST CLASS");
+	
+	else if(marks>=70)
+	printf("DISTINCTION");
+	return 0;
+}
+

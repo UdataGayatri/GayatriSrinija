@@ -1,0 +1,30 @@
+/**Write a C program to input marks of 3 subjects Physics, Mathematics and PPS, calculate
+percentage and grade according to given conditions:
+If percentage >= 90% : Grade A
+If percentage >= 80% : Grade B
+If percentage >= 70% : Grade C
+If percentage >= 60% : Grade D
+If percentage >= 40% : Grade E
+If percentage < 40% : Grade F**/
+#include<stdio.h>
+int main()
+{
+	int phy,math,pps,percent;
+	printf("enter marks of three subjects:\n");
+	scanf("%d%d%d",&phy,&math,&pps);
+	percent = phy + math + pps;
+	if(percent>=90)
+	printf("GRADE IS A");
+	else if(percent>=80)
+	printf("GRADE IS B");
+	else if(percent>=70)
+	printf("GRADE IS C");
+	else if(percent>=60)
+	printf("GRADE IS D");
+	else if(percent>=40)
+	printf("GRADE IS E");
+	else if(percent<40)
+	printf("GRADE IS F");
+	return 0;
+}
+

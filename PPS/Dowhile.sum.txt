@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+int main()
+{
+      int n,sum = 0, num,i;
+      printf("number of numbers:\n");
+      scanf("%d",&n);
+      printf("\nEnter %d Numbers:\n\n",n);
+
+      do
+      {
+            scanf("%d",&num);
+            if(num < 0)
+                  sum = sum+num;
+                  i++;
+      }while(i<=n);
+      printf("Sum of Negative Numbers = %d",sum);
+      return 0;
+      
+}
