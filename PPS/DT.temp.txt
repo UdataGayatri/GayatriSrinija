@@ -1,0 +1,11 @@
+/**Write a C program to convert temperature from foreinheit to celcius.**/
+#include<stdio.h>
+int main()
+{
+	float F,C;
+	printf("Enter temperature in fahrenheit:\n");
+	scanf("%f",&F);
+	C = (F-32)*5/9;
+	printf("The Temperature in celsius is %.1f degrees",C);
+	return 0;
+}
